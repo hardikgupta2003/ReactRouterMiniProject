@@ -1,10 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import { toast } from 'react-hot-toast';
-import logo from '../assets/Logo.svg'
+import logo from "../assets/Logo.svg"
+import {Link} from "react-router-dom"
+import {toast} from "react-hot-toast"
 
 const Navbar = (props) => {
-   let isLoggedIn=props.isLoggedIn;
+   let isLoggedIN=props.isLoggedIN;
    let setIsLoggedIn=props.setIsLoggedIn;
   return (
     <div className='flex justify-evenly'>
@@ -28,19 +28,19 @@ const Navbar = (props) => {
         {/* login - signup- logout - Dashboard */}
     <div className='flex ml-5 mr-3'>
     {
-        !isLoggedIn && 
+        !isLoggedIN && 
         <Link to="/login">
             <button>Login</button>
         </Link>
     }
     {
-        !isLoggedIn && 
+        !isLoggedIN && 
         <Link to="/signup">
             <button>Sign Up</button>
         </Link>
     }
     {
-        isLoggedIn && 
+        isLoggedIN && 
         <Link to="/">
             <button onClick={()=>{
                 setIsLoggedIn(false);
@@ -49,7 +49,7 @@ const Navbar = (props) => {
         </Link>
     }
     {
-        isLoggedIn && 
+        isLoggedIN && 
         <Link to="/dashboard">
             <button>DashBoard</button>
         </Link>
