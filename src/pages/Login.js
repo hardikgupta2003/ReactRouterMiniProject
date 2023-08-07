@@ -4,14 +4,15 @@ import loginImg from "../assets/login.png"
 
 const Login = ({setIsLoggedIn}) => {
   return (
+    <div>
     <Template
-    title="welcome Back"
+    title="Welcome Back"
     desc1="Build skills for today, tomorrow, and beyond."
       desc2="Education to future-proof your career."
       image={loginImg}
       formtype="login"
       setIsLoggedIn={setIsLoggedIn}
-    />
+    />About</div>
   )
 }
 
