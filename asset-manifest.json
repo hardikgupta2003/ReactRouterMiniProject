@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ReactRouterMiniProject/static/css/main.a9e17a3c.css",
-    "main.js": "/ReactRouterMiniProject/static/js/main.434784e6.js",
+    "main.css": "/ReactRouterMiniProject/static/css/main.539146dc.css",
+    "main.js": "/ReactRouterMiniProject/static/js/main.97799783.js",
     "static/media/signup.png": "/ReactRouterMiniProject/static/media/signup.b431d919de01b6515dd6.png",
     "static/media/login.png": "/ReactRouterMiniProject/static/media/login.4d877a447365e5137b67.png",
     "static/media/frame.png": "/ReactRouterMiniProject/static/media/frame.3a238e5f26d676376e1d.png",
     "static/media/Logo.svg": "/ReactRouterMiniProject/static/media/Logo.fd896773ef070a122541fd8722efa10f.svg",
     "index.html": "/ReactRouterMiniProject/index.html",
-    "main.a9e17a3c.css.map": "/ReactRouterMiniProject/static/css/main.a9e17a3c.css.map",
-    "main.434784e6.js.map": "/ReactRouterMiniProject/static/js/main.434784e6.js.map"
+    "main.539146dc.css.map": "/ReactRouterMiniProject/static/css/main.539146dc.css.map",
+    "main.97799783.js.map": "/ReactRouterMiniProject/static/js/main.97799783.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9e17a3c.css",
-    "static/js/main.434784e6.js"
+    "static/css/main.539146dc.css",
+    "static/js/main.97799783.js"
   ]
 }
